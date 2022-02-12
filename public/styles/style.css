@@ -1,3 +1,86 @@
 li {
     list-style-type: none;
 }
+
+.bg {
+    background-image: url(/images/1061.png);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: repeat;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.box {
+    font-size: 1.2rem;
+    background-color: rgba(189, 189, 189, 0.335);
+    text-align: center;
+    border: 2px solid #EEE;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #EEE;
+    margin: 50px 5% 0 5%;
+    padding: 20px;
+    width: 45%;
+    color: white;
+    
+}
+
+.outDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.centerDiv {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 30px 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: dotted 2px rgba(8, 8, 1, 0.555);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.226);
+    
+}
+
+img {
+    margin: auto;
+    display: block;
+    max-width: 15vw;
+    max-height: 15vh;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.24);
+    width: 350px;
+    height: 500px;
+    padding: 30px 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-bottom: solid 15px purple;
+    text-align: center;
+}
+
+.linkD {
+    text-decoration: none;
+    color: black;
+}
