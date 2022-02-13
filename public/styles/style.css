@@ -10,6 +10,14 @@ li {
     margin: -10px;
 }
 
+.bg2 {
+    background-image: url(/images/1061.png);
+    width: 15vw;
+    min-height: 15vh;
+    background-repeat: repeat;
+    margin: -10px;
+}
+
 .box {
     font-size: 1.2rem;
     background-color: rgba(189, 189, 189, 0.335);
